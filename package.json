@@ -1,5 +1,5 @@
 {
-  "name": "@ajs-uk/ecs-format-logger",
+  "name": "@ajs-uk/node-red-ecs-logger",
   "version": "1.0.0",
   "description": "A Node-RED ECS format logging output node that outputs to the System Console",
   "main": "log-ecs.js",
@@ -9,7 +9,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/objt-ev/node-red-contrib-log-ecs"
+    "url": "https://github.com/anthonyjsargeant/node-red-contrib-log-ecs"
+  },
+  "bugs": {
+    "url": "https://github.com/anthonyjsargeant/node-red-contrib-log-ecs/issues"
   },
   "keywords": [
     "logger",
@@ -26,7 +29,7 @@
     }
   },
   "engines": {
-    "node": ">=16.0.0"
+    "node": ">=14.0.0"
   },
   "author": "ev",
   "license": "MIT",
