@@ -1,0 +1,29 @@
+<script type="text/javascript">
+  RED.nodes.registerType('log-ecs-logger', {
+    category: 'config',
+    defaults: {
+      name: { value: '' },
+      logconsole: { value: true },
+    },
+    label: function () { return this.name },
+  })
+</script>
+
+<script type="text/html" data-template-name="log-ecs-logger">
+    <div class="form-row">
+        <label for="node-config-input-name"><i class="fa fa-tag"></i> Name</label>
+        <input type="text" id="node-config-input-name" placeholder="Name">
+    </div>
+    <div class="form-row">
+        <label><i class="fa fa-random"></i> Log output</span></label>
+        <input style="width:20px; vertical-align:baseline; margin-right:5px;" type="checkbox"
+               id="node-config-input-logconsole" autocomplete="off">
+        <label style="width:auto; margin-top:7px;"
+               for="node-config-input-logconsole"><span>System Console</span></label>
+    </div>
+
+</script>
+
+<script type="text/x-red" data-help-name="log-ecs-logger">
+    <p>The configuration for the log-ecs logger</p>
+</script>

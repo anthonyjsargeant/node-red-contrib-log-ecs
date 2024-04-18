@@ -1,0 +1,38 @@
+{
+  "name": "@anthonyjsargeant/ecs-format-logger",
+  "version": "1.0.0",
+  "description": "A Node-RED ECS format logging output node that outputs to the System Console",
+  "main": "log-ecs.js",
+  "scripts": {
+    "release": "standard-version",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/objt-ev/node-red-contrib-log-ecs"
+  },
+  "keywords": [
+    "logger",
+    "winston",
+    "elasticsearch",
+    "ecs",
+    "node-red"
+  ],
+  "node-red": {
+    "version": ">=2.0.0",
+    "nodes": {
+      "log-ecs": "log-ecs.js",
+      "Log-ecs-logger": "log-ecs-logger.js"
+    }
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "author": "ev",
+  "license": "MIT",
+  "dependencies": {
+    "@elastic/ecs-winston-format": "^1.5.3",
+    "json-stringify-safe": "^5.0.1",
+    "winston": "^3.13.0"
+  }
+}
