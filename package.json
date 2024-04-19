@@ -1,5 +1,5 @@
 {
-  "name": "@ajs-uk/node-red-ecs-logger",
+  "name": "@sargerino/node-red-ecs-logger",
   "version": "1.0.0",
   "description": "A Node-RED ECS format logging output node that outputs to the System Console",
   "main": "log-ecs.js",
